@@ -16,7 +16,8 @@ new_model.summary()
 #decorator== parameters-rule(URL),options
 @app.route('/')            
 def home():
-    return render_template('index.html')
+    ##return render_template('index.html')
+    return 'This is my first API call!'
 
 @app.route('/predict',methods=['POST'])            
 def predict():
