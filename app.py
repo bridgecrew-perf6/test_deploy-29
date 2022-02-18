@@ -10,7 +10,7 @@ from keras.preprocessing import sequence
 app=Flask(__name__) 
       
 # Recreate the exact same model, including its weights and the optimizer
-new_model = tf.keras.models.load_model('final_model.h5')
+new_model = tf.keras.models.load_model('model.h5')
 # Show the model architecture
 new_model.summary()
 #decorator== parameters-rule(URL),options
