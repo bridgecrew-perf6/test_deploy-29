@@ -17,7 +17,7 @@ new_model.summary()
 @app.route('/')            
 def home():
     ##return render_template('index.html')
-    return 'This is my first API call!'
+    return 'This is my second API call!'
 
 @app.route('/predict',methods=['POST'])            
 def predict():
